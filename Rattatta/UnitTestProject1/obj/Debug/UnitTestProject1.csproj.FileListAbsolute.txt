@@ -1,0 +1,16 @@
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\bin\Debug\ClassLibrary1.dll
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\bin\Debug\ClassLibrary1.pdb
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\eckart\Desktop\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\ClassLibrary1.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\Interfaces.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\ClassLibrary1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\bin\Debug\Interfaces.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

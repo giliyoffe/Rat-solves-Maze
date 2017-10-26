@@ -1,0 +1,5 @@
+P:\C#\Visual Studio 2012Projects\Rattatta\Interfaces\bin\Debug\Interfaces.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\Interfaces\bin\Debug\Interfaces.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+P:\C#\Visual Studio 2012Projects\Rattatta\Interfaces\obj\Debug\Interfaces.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\Interfaces\obj\Debug\Interfaces.pdb

@@ -1,0 +1,68 @@
+public class RatYoffe : IRatface
+    {
+        //me
+
+        private int rightTurnCount = 0;
+        private int leftTurnCount = 0;
+        private int canMoveCount = 0;
+
+        //true == kein Wand. false == Wand
+        public int move(bool Wand)
+        {
+            //me
+
+            if (
+                (leftTurnCount == 3) || 
+                ((leftTurnCount == 1) && (canMoveCount == 1) && (rightTurnCount == 1)) ||
+                ((leftTurnCount == 0) && (canMoveCount == 0) && (rightTurnCount == 1)) && Wand ||
+                ((leftTurnCount == 0) && (canMoveCount == 1) && (rightTurnCount == 1) && Wand) 
+               )
+            {
+                rightTurnCount = 0;
+                leftTurnCount = 0;
+                canMoveCount = 0;
+                return 0; // move forward
+            }
+            else if (!Wand && (rightTurnCount == 0))
+            {
+                ++rightTurnCount;
+                return 1; // 1 == turn right
+            }
+            else if (rightTurnCount == 1) //TODO - can move to top brobably as (rightTurnCount == 1 && leftTC == 2 && Wand)  - but the else clause???
+            {
+                if (leftTurnCount == 2 && Wand)//added Wand - works better
+                {
+                    rightTurnCount = 0;
+                    leftTurnCount = 0;
+                    canMoveCount = 0;
+                    return 0; // move forward   
+                }
+                ++leftTurnCount;                    //test todo facing no wall going right second position
+                return -1; // -1 == turn left
+            }
+
+            ++canMoveCount;
+            ++rightTurnCount;
+            return 1; // 1 == turn right
+        }
+    }
+
+
+
+// rats for florian maze 
+
+// rats.Add(new RatManager(1, 3, 0, Color.FromArgb(128, 0, 80, 80), new LSDRat()));
+           //  rats.Add(new RatManager(1, 3, 0, Color.FromArgb(128, 0, 160, 0), new RatYoffe()));
+           // rats.Add(new RatManager("Yoffe", 1, 3, 0, Color.FromArgb(128, 0, 160, 0), new RatYoffe()));
+
+            //rats.Add(new RatManager(1, 3, 0, Color.FromArgb(128,  160, 0 ,0), new Rateck()));
+           //rats.Add(new RatManager(1, 3, 0, Color.FromArgb(100, 0, 55, 0 ), new Rattleck()));
+
+
+public void initRats()
+        {
+           // rats.Add(new RatManager("Herr Hoffmann", 1, 3, 0, Color.FromArgb(128, 160, 80, 80), new LSDRat()));
+            rats.Add(new RatManager("GY", 1, 3, 0, Color.FromArgb(128, 0, 60 , 0), new RatYoffe()));
+            //rats.Add(new RatManager("Kollektiv", 1, 3, 0, Color.FromArgb(128,  0,160,0), new Rateck()));
+            rats.Add(new RatManager("Herr Eckart", 1, 3, 0, Color.FromArgb(128, 0,0, 160), new Rattleck()));
+        }

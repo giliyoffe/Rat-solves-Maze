@@ -1,0 +1,12 @@
+C:\Users\eckart\Desktop\UnitTestProject1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\eckart\Desktop\UnitTestProject1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\eckart\Desktop\UnitTestProject1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\eckart\Desktop\UnitTestProject1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\eckart\Desktop\UnitTestProject1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\bin\Debug\Interfaces.dll
+P:\C#\Visual Studio 2012Projects\Rattatta\ClassLibrary1\bin\Debug\Interfaces.pdb
