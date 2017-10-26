@@ -1,2 +1,3 @@
-# C-_exercises
+# C#_exercises
+
 some C#_exercises
