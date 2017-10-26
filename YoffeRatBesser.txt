@@ -54,7 +54,7 @@ public class RatYoffe : IRatface
 
 
 
-// rats for florian maze 
+// Rats should be written like so for maze 
 
 // rats.Add(new RatManager(1, 3, 0, Color.FromArgb(128, 0, 80, 80), new LSDRat()));
            //  rats.Add(new RatManager(1, 3, 0, Color.FromArgb(128, 0, 160, 0), new RatYoffe()));
@@ -69,5 +69,5 @@ public void initRats()
            // rats.Add(new RatManager("Herr Hoffmann", 1, 3, 0, Color.FromArgb(128, 160, 80, 80), new LSDRat()));
             rats.Add(new RatManager("GY", 1, 3, 0, Color.FromArgb(128, 0, 60 , 0), new RatYoffe()));
             //rats.Add(new RatManager("Kollektiv", 1, 3, 0, Color.FromArgb(128,  0,160,0), new Rateck()));
-            rats.Add(new RatManager("Herr Eckart", 1, 3, 0, Color.FromArgb(128, 0,0, 160), new Rattleck()));
+            rats.Add(new RatManager("name", 1, 3, 0, Color.FromArgb(128, 0,0, 160), new Rattleck()));
         }
