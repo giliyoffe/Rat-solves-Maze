@@ -1,6 +1,11 @@
+/**
+* Rat gets a Maze that tells Rat only if there is wall infront or no wall in front
+* Rat needs to find way out of maze using only this information
+*/
+
 public class RatYoffe : IRatface
     {
-        //me
+        //
 
         private int rightTurnCount = 0;
         private int leftTurnCount = 0;
